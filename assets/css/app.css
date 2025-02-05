@@ -14,3 +14,38 @@ body{
     border-radius: 0%;
     padding: 10px 20px;
 }
+
+.gb-2{
+    background-color: #121229; 
+}
+
+/* Borders */
+.border-custom{
+    border:1px solid #444;
+    transition: all 0.4s ease-in-out;
+}
+
+.border-custom:hover{
+  border-color: var(--bs-orange);
+}
+
+/*Service*/
+.icon{
+    width: 60px;
+    height: 60px;
+    background-color: #000;
+    display: grid;
+    align-content: center;
+    text-align: center;
+    font-size: 32px;
+    color: #fff;
+    transition: all 0.4s ease-in-out;
+}
+
+.icon:hover{
+    background-color: var(--bs-orange);
+}
+
+.service:hover .icon{
+    background-color: var(--bs-orange);
+}
