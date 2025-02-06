@@ -175,3 +175,5 @@ footer ul li a{
 .scroll-to-top:hover{
     background-color: #d4af37;
 }
+
+.read-more { color:#d4af37; cursor: pointer; }
