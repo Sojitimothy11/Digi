@@ -49,3 +49,58 @@ body{
 .service:hover .icon{
     background-color: var(--bs-orange);
 }
+
+a{
+    color:var(--bs-orange);
+}
+
+.swiper-pagination-bullets{
+color: var(--bs-orange);
+}
+
+/* Projects*/
+.project{
+    overflow: hidden;
+    position: relative ;
+}
+
+.project .overlay{
+    padding: 32px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 0.4s ease-in-out;
+    opacity: 0;
+    transform: translateY(60px);
+}
+
+.project:hover .overlay{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Review */
+
+.review img{
+    width: 90px;
+    border-radius: 100px;
+}
+
+/* Team */
+.team-member .divider{
+    background-color: #555;
+    height: 1px;
+}
+
+.team-member .links .icon{
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    background-color: transparent transparent;
+    border: 1px solid blue;
+}
+.team-member .links .icon:hover{
+    background-color: var(--bs-orange);
+}
