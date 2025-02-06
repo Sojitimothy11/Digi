@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="./assets/css/bootstrap.css">
     <link rel="stylesheet" href="./assets/css/app.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
-  <body>
+  <body id="top">
     <!--Navbar-->
     <nav class="navbar py-3 navbar-expand-lg bg-light" data-bs-theme="dark">
         <div class="container">
@@ -51,15 +52,15 @@
       <section id="hero" class="min-vh-100 d-grid align-content-center">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-5">
+                <div class="col-lg-5" data-aos="fade-down" >
                     <img src="./images/Storeharmony-30-removebg-preview.png" class="img-fluid" alt="photo">
                 </div>
-                <div class="col-lg-7 px-lg-5">
+                <div class="col-lg-7 px-lg-5" data-aos="fade-down" >
                     <h1 class="h3">Welcome to Digi_cr8ve</h1>
-                    <p class="mt-3 mb-4">We help brands stand out, engage, and grow in the digital world. As a full-service digital marketing agency, we specialize in social media management, blogging, content creation, graphic design, and digital marketing strategies that drive real results.</p>
+                    <p class="mt-3 mb-4 type">We help brands stand out, engage, and grow in the digital world. As a full-service digital marketing agency, we specialize in social media management, blogging, content creation, graphic design, and digital marketing strategies that drive real results.</p>
                     <div>
                     <a href="#" class="btn btn-warning mx-2">Get Started</a>
-                    <a href="#" class="btn btn-warning mx-2">Free Digital Resource</a>
+                    <a href="./assets/Resources/CV.pdf" download="./assets/Resources/CV.pdf" class="btn btn-warning mx-2">Free Digital Resource</a>
                     </div>
                 </div>
             </div>
@@ -69,6 +70,7 @@
 
       <!--Services -->
       <section id="services" class="py-5 bg-2">
+      
 
         <div class="container">
             <div class="row align-items-center mb-3">
@@ -82,7 +84,7 @@
                     <a href="#" class="btn btn-warning">Discover More</a>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" data-aos="fade-down">
 
                 <div class="col-md-4">
                     <div class="service border-custom p-4">
@@ -131,7 +133,7 @@
                     <a href="#" class="btn btn-warning">Discover More</a>
                 </div> -->
             </div>
-            <div class="row">
+            <div class="row" data-aos="fade-down">
             <!-- Swiper -->
   <div class="swiper mySwiper pb-5">
     <div class="swiper-wrapper">
@@ -198,7 +200,7 @@
     
             <!-- Swiper -->
   <div class="swiper mySwiper pb-5">
-    <div class="swiper-wrapper">
+    <div class="swiper-wrapper" data-aos="fade-down">
       
       <div class="swiper-slide">
         <div class="review p-4 border-custom">
@@ -243,9 +245,9 @@
 
       </section>
 
-       <!--Team-->
+       <!--Testimonial-->
 
-       <section id="reviews" class="py-5">
+       <section id="team" class="py-5">
 
         <div class="container">
             <div class="row align-items-center mb-3">
@@ -256,7 +258,7 @@
                 </div>
 
             </div>
-            <div class="row text-center">
+            <div class="row text-center g-4" data-aos="fade-down">
               <div class="col-lg-3 col-sm-6">
                 <div class="team-member border-custom py-3">
                   <div class="team-head p-3">
@@ -326,18 +328,203 @@
                   
                   
             </div>
-    
-  
         </div>
 
       </section>
 
-     
+       <!--Blog-->
+
+       <section id="blog" class="py-5">
+
+        <div class="container">
+            <div class="row align-items-center mb-3">
+                <div class="col-md-8">
+                    <h6 class="text-warning">BLOG</h6>
+                    <h2 class="h3">Latest Blog Posts</h2>
+                    <p>At DigiCreative, our team is a blend of passionate digital experts dedicated to driving your brand’s success. From social media strategists to creative designers and marketing specialists, we work together to craft innovative solutions that deliver results.</p>
+                </div>
+            </div>
+        
+        <div class="row g-4" data-aos="fade-down">
+          <!-- Col -->
+           <div class="col-lg-3 col-sm-6">
+            <div class="blog-post p-4 border-custom">
+              <span class="badge rounded-0 bg-warning">12-1-2025</span>
+              <h5 class="my-3">Writing an Engaging Blog</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, hic.</p>
+              <a href="#">Read More</a>
+            </div>
+           </div>
+
+           <div class="col-lg-3 col-sm-6">
+            <div class="blog-post p-4 border-custom">
+              <span class="badge rounded-0 bg-warning">12-1-2025</span>
+              <h5 class="my-3">Writing an Engaging Blog</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, hic.</p>
+              <a href="#">Read More</a>
+            </div>
+           </div>
+
+           <div class="col-lg-3 col-sm-6">
+            <div class="blog-post p-4 border-custom">
+              <span class="badge rounded-0 bg-warning">12-1-2025</span>
+              <h5 class="my-3">Writing an Engaging Blog</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, hic.</p>
+              <a href="#">Read More</a>
+            </div>
+           </div>
+
+           <div class="col-lg-3 col-sm-6">
+            <div class="blog-post p-4 border-custom">
+              <span class="badge rounded-0 bg-warning">12-1-2025</span>
+              <h5 class="my-3">Writing an Engaging Blog</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, hic.</p>
+              <a href="#">Read More</a>
+            </div>
+           </div>
+
+        </div>
+      </div>
+      </section>
+
+      <!--Contact-->
+
+      <section id="contact" class="py-5">
+
+        <div class="container">
+            <div class="row align-items-center mb-3">
+                <div class="col-md-8">
+                    <h6 class="text-warning">CONTACT</h6>
+                    <h2 class="h3">Get In Touch</h2>
+                    <p>At DigiCreative, our team is a blend of passionate digital experts dedicated to driving your brand’s success. From social media strategists to creative designers and marketing specialists, we work together to craft innovative solutions that deliver results.</p>
+                </div>
+            </div>
+        
+        <div class="row" data-aos="fade-down">
+          <!-- Col -->
+          <div class="col-lg-6 d-grid">
+            <div class="border-custom p-4 d-flex">
+              <div class="icon"><i class="las la-phone-square"></i></div>
+              <div class="ms-3">
+                <h5>Phone</h5>
+                <p class="mb-0">(+234)903 5700 180</p>
+              </div>
+            </div>
+            <div class="border-custom p-4 d-flex">
+              <div class="icon"><i class="las la-envelope"></i></div>
+              <div class="ms-3">
+                <h5>Email</h5>
+                <p class="mb-0">abidemysoji@gmail.com</p>
+              </div>
+            </div>
+            <div class="border-custom p-4 d-flex">
+              <div class="icon"><i class="las la-map-marker-alt"></i></div>
+              <div class="ms-3">
+                <h5>Adress</h5>
+                <p class="mb-0">#6, Emmanuel Kolawole, Lagos.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Col2 -->
+            <div class="col-lg-6 d-grid">
+              <form action="https://formsubmit.co/timothysoji1@gmail.com" method="POST" class="border-custom p-4">
+                <div class="mb-3">
+                  <label for="name" class="mb-2">Name</label>
+                  <input type="text" name="name" class="form-control">
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="mb-2">Email</label>
+                  <input type="email" name="email" class="form-control">
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="mb-2">Message</label>
+                  <textarea name="#" rows="4" class="form-control"></textarea>
+                </div>
+                <button type="submit" class="btn btn-warning">Send</button>
+              </form>
+            </div>
+
+           
+           
+        </div>
+      </div>
+      </section>
+
+      <!--Insta Section-->
+      <div id="insta-secton" class="row g-0 py-5" data-aos="fade-down">
+        <div>
+          <a href="https://www.instagram.com/digi_cr8ve/" class="btn btn-danger">Follow Us On Insta</a>
+        </div>
+        <div class="col-6 col-md-3">
+          <img src="./images/Storeharmony-33.jpg" class="img-fluid" alt="image">
+        </div>
+        <div class="col-6 col-md-3">
+          <img src="./images/Storeharmony-33.jpg" class="img-fluid" alt="image">
+        </div>
+        <div class="col-6 col-md-3">
+          <img src="./images/Storeharmony-33.jpg" class="img-fluid" alt="image">
+        </div>
+        <div class="col-6 col-md-3">
+          <img src="./images/Storeharmony-33.jpg" class="img-fluid" alt="image">
+        </div>
+
+      </div>
+
+      <!-- Footer -->
+    
+      <footer> 
+          <div class="container">
+            <!--Row-->
+            <div class="row g-0" data-aos="fade-down">
+              <!--Column-->
+              <div class="col-md-6 p-4 border-custom">
+                
+                  <img src="./images/Logo02.png" width="70px" alt="logo">
+                  <p class="mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum possimus vitae quisquam quis repudiandae error, omnis impedit natus nemo rerum corporis soluta recusandae, id blanditiis. Assumenda porro soluta veritatis consectetur.</p>
+              
+              </div>
+
+              <div class="col-md-3 p-4 border-custom">
+                
+                  <h5>Links</h5>
+                  <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Blog</a></li>
+                  </ul>
+            
+              </div>
+
+              <div class="col-md-3 p-4 border-custom">
+            
+                  <h5>Follow Us</h5>
+                  <ul>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                  </ul>
+              
+              </div>
+
+              <div class="col-12 p-4 border-custom text-center">
+                <p class="mb-0">Designed By <a href="#">Adesoji</a> 	&#9400; 2005, All Rights Reserved.</p>
+              </div>
+
+            </div>
+          </div>
+      </footer>
+
+      <a href="#top" class="icon scroll-to-top"><i class="las la-arrow-up"></i></a>
 
       <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
