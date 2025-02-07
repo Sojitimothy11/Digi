@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Roboto";
+}
+
+/* Navbar */
+
+.navbar{
+    --bs-navbar-nav-link-padding-x: 1.5rem;
+}
+
+.btn{
+    border-radius: 0%;
+    padding: 10px 20px;
+}
+
+.gb-2{
+    background-color: #121229; 
+}
+
+/* Borders */
+.border-custom{
+    border:1px solid #444;
+    transition: all 0.4s ease-in-out;
+}
+
+.border-custom:hover{
+  border-color: var(--bs-orange);
+}
+
+/*Typewriter*/
+h1{
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .1em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    animation: 
+      typing 5s steps(30, end),
+      blink-caret .5s step-end infinite;
+}@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+} @keyframes blink-caret {
+  from, to { border-color: transparent }
+  10% { border-color: orange }
+}
+
+
+
+/*Service*/
+.icon{
+    width: 60px;
+    height: 60px;
+    background-color: #000;
+    display: grid;
+    align-content: center;
+    text-align: center;
+    font-size: 32px;
+    color: #fff;
+    transition: all 0.4s ease-in-out;
+}
+
+.icon:hover{
+    background-color: var(--bs-orange);
+}
+
+.service:hover .icon{
+    background-color: var(--bs-orange);
+}
+
+a{
+    color:var(--bs-orange);
+}
+
+.swiper-pagination-bullets{
+color: var(--bs-orange);
+}
+
+/* Projects*/
+.project{
+    overflow: hidden;
+    position: relative ;
+}
+
+.project .overlay{
+    padding: 32px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 0.4s ease-in-out;
+    opacity: 0;
+    transform: translateY(60px);
+}
+
+.project:hover .overlay{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Review */
+
+.review img{
+    width: 90px;
+    border-radius: 100px;
+}
+
+/* Team */
+.team-member .divider{
+    background-color: #555;
+    height: 1px;
+}
+
+.team-member .links .icon{
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    background-color: transparent transparent;
+    border: 1px solid blue;
+}
+.team-member .links .icon:hover{
+    background-color: var(--bs-orange);
+}
+
+/* Contact */
+#contact .form-control{
+    background-color: transparent;
+    border: 0.5px solid #555;
+    border-radius: 0;
+    padding: 5px;
+    color: #fff;
+}
+
+#insta-secton{
+    position: relative;
+}
+
+#insta-secton .btn{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Footer*/
+footer ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+footer ul{
+    padding: 0;
+}
+
+footer ul li a{
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+}
+
+.scroll-to-top{
+    text-decoration: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: var(--bs-orange);
+    color: #fff;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+.scroll-to-top:hover{
+    background-color: #d4af37;
+}
+
+.read-more { color:#d4af37; cursor: pointer; }
