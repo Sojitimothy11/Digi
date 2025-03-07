@@ -10,9 +10,34 @@ body{
     --bs-navbar-nav-link-padding-x: 1.5rem;
 }
 
+.navbar {
+    backdrop-filter: blur(10px); /* Adjusted blur for a softer effect */
+    background: rgba(0, 0, 0, 0.4); /* Slight transparent dark background */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+    padding: 15px 20px; /* Added padding for better spacing */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Light border for a subtle separation */
+    transition: all 0.3s ease-in-out; /* Smooth transition effect */
+}
+
+
 .btn{
     border-radius: 0%;
     padding: 10px 20px;
+}
+
+.nav-link{
+    color: #fff;
+}
+
+.nav-link:hover{
+    color: var(--bs-orange);
 }
 
 .gb-2{
@@ -174,6 +199,23 @@ footer ul li a{
 }
 .scroll-to-top:hover{
     background-color: #d4af37;
+}
+
+.scroll-to-left:hover{
+    background-color: #476b00;
+}
+
+.scroll-to-left{
+    text-decoration: none;
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    background-color: var(--bs-green);
+    color: #fff;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
 }
 
 .read-more { color:#d4af37; cursor: pointer; }
