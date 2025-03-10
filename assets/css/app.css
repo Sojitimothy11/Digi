@@ -99,7 +99,7 @@ a{
 }
 
 .swiper-pagination-bullets{
-color: var(--bs-orange);
+  color: var(--bs-orange);
 }
 
 /* Projects*/
