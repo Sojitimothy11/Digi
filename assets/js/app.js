@@ -1,3 +1,4 @@
+'use strict';
 const scrollToTop = document.querySelector('.scroll-to-top');
 window.addEventListener('scroll',()=>{
     if(window.scrollY>300){
